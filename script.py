@@ -1,5 +1,6 @@
 import os
 import json
+from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 USERNAME = os.environ["USERNAME"]
@@ -34,17 +35,44 @@ def run():
             page.wait_for_timeout(1000)
 
             html = page.content()
-
-            all_data.append({
-                "spieltag": spieltag,
-                "url": url,
-                "html_length": len(html),
-                "html": html
-            })
+            
+            soup = BeautifulSoup(html, "lxml")
+            
+            tables = soup.select("table.table")
+            
+            for table in tables:
+            
+                spieler = table.get("id", "").replace("_", "")
+            
+                rows = table.select("tbody tr")
+            
+                for row in rows:
+            
+                    cols = row.select("td")
+            
+                    if len(cols) < 4:
+                        continue
+            
+                    begegnung = cols[0].get_text(" ", strip=True)
+                    tipp = cols[1].get_text(" ", strip=True)
+                    ergebnis = cols[2].get_text(" ", strip=True)
+                    punkte = cols[3].get_text(" ", strip=True)
+            
+                    if punkte == "-":
+                        punkte = None
+            
+                    all_spieltage.append({
+                        "spieltag": spieltag,
+                        "Name": spieler,
+                        "Begegnung": begegnung,
+                        "Tipp": tipp,
+                        "Ergebnis": ergebnis,
+                        "Punkte": punkte
+                    })
 
         # JSON INS REPO SPEICHERN
         with open("spieltage.json", "w", encoding="utf-8") as f:
-            json.dump(all_data, f, indent=2, ensure_ascii=False)
+            json.dump(all_spieltage, f, indent=2, ensure_ascii=False)
 
         browser.close()
 

@@ -1,6 +1,9 @@
+import traceback
+try:
 import os
 import json
 from playwright.sync_api import sync_playwright
+
 
 USERNAME = os.environ["USERNAME"]
 PASSWORD = os.environ["PASSWORD"]
@@ -14,14 +17,18 @@ def run():
         page = context.new_page()
 
         # 1. Login Seite öffnen
-        page.goto("https://allegegenpistorwm.wdr2.de/start.php", wait_until="networkidle")
-
-        # 2. Login ausführen
-        page.fill('input[name="username"]', USERNAME)
-        page.fill('input[name="password"]', PASSWORD)
-        page.click('input[type="submit"], button[type="submit"]')
-        page.wait_for_load_state("networkidle")
-
+        page.goto("https://allegegenpistorwm.wdr2.de/start.php")
+        
+        page.wait_for_timeout(2000)
+        
+        page.locator('input[name="username"]').fill(USERNAME)
+        page.locator('input[name="password"]').fill(PASSWORD)
+        
+        page.locator('input[type="submit"], button[type="submit"]').first.click()
+        
+        page.wait_for_timeout(3000)
+        print("CURRENT URL:", page.url)
+        page.screenshot(path="after_login.png")
         all_data = []
 
         # 3. Loop über Spieltage
@@ -58,3 +65,8 @@ import os
 
 print("CURRENT DIR:", os.getcwd())
 print("FILES:", os.listdir())
+
+except Exception as e:
+    print("FEHLER:", e)
+    traceback.print_exc()
+    raise

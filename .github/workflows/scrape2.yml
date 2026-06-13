@@ -29,10 +29,11 @@ jobs:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
 
-      - name: Upload result
-        uses: actions/upload-artifact@v4
-        with:
-          name: agp-data
-          path: |
-            page.html
-            cookies.json
+- name: Upload result
+  uses: actions/upload-artifact@v4
+  if: always()
+  with:
+    name: agp-data
+    path: |
+      **/page.html
+      **/cookies.json

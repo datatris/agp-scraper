@@ -26,7 +26,7 @@ def run():
 
         page.wait_for_timeout(3000)
 
-        all_data = []
+        all_spieltage = []
 
         # Spieltage scrapen
         for spieltag in range(1, 38):

@@ -2,8 +2,8 @@ import os
 import json
 from playwright.sync_api import sync_playwright
 
-USERNAME = os.environ["DSCTris"]
-PASSWORD = os.environ["Sampo11!"]
+USERNAME = os.environ["USERNAME"]
+PASSWORD = os.environ["PASSWORD"]
 
 URL = "https://allegegenpistorwm.wdr2.de/start.php"
 

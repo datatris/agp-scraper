@@ -11,21 +11,19 @@ TIPPRUNDE_URL = "https://allegegenpistorwm.wdr2.de/spielstand_tipprunde.php"
 
 
 def scrape_tipprunde(page, teamname):
-    page.goto(TIPPRUNDE_URL, wait_until="domcontentloaded")
+    page.goto("https://allegegenpistorwm.wdr2.de/spielstand_tipprunde.php", wait_until="domcontentloaded")
+
     page.wait_for_timeout(1000)
 
-    page.fill('input[name="name"]', teamname)
+    page.locator('input[name="teamname"]').fill(teamname)
 
     page.click('input[type="submit"], button[type="submit"]')
 
     page.wait_for_timeout(2000)
 
-    html = page.content()
-
     return {
         "teamname": teamname,
-        "html": html,
-        "html_length": len(html)
+        "html": page.content()
     }
 
 

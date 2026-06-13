@@ -43,7 +43,7 @@ def run():
 
         # 4. speichern
         with open("spieltage.json", "w", encoding="utf-8") as f:
-            json.dump(all_data, f, indent=2, ensure_ascii=False)
+             f.write(html)
 
         print("Fertig!")
 
@@ -51,3 +51,8 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+import os
+
+print("CURRENT DIR:", os.getcwd())
+print("FILES:", os.listdir())

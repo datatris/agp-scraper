@@ -25,25 +25,27 @@ def run():
         all_data = []
 
         # 3. Loop über Spieltage
-        for spieltag in range(1, 5):
+        for spieltag in range(1, 38):
             url = f"{BASE_URL}{spieltag}"
-            print(f"Scrape Spieltag {spieltag}: {url}")
-
-            page.goto(url, wait_until="networkidle")
-
-            # optional: kleine Pause gegen Rate-Limits
-            page.wait_for_timeout(800)
-
+            print("Lade:", url)
+        
+            page.goto(url, wait_until="domcontentloaded")
+            page.wait_for_timeout(1000)
+        
             html = page.content()
-
+        
             all_data.append({
                 "spieltag": spieltag,
+                "url": url,
+                "html_length": len(html),
                 "html": html
             })
 
+            print("Gespeichert Spieltag", spieltag)
+
         # 4. speichern
         with open("spieltage.json", "w", encoding="utf-8") as f:
-             f.write(html)
+        json.dump(all_data, f, indent=2, ensure_ascii=False)
 
         print("Fertig!")
 

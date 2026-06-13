@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 USERNAME = os.environ["USERNAME"]
 PASSWORD = os.environ["PASSWORD"]
 
-URL = "https://allegegenpistorwm.wdr2.de/tipprunde_punkte_detail.php?id=4833"
+BASE_URL = "https://allegegenpistorwm.wdr2.de/tipprunde_punkte_detail.php?id=4833&spieltag="
 
 def run():
     with sync_playwright() as p:
@@ -13,30 +13,39 @@ def run():
         context = browser.new_context()
         page = context.new_page()
 
-        # Seite öffnen
-        page.goto(URL, wait_until="networkidle")
+        # 1. Login Seite öffnen
+        page.goto("https://allegegenpistorwm.wdr2.de/start.php", wait_until="networkidle")
 
-        # Login (Selector ggf. anpassen!)
+        # 2. Login ausführen
         page.fill('input[name="username"]', USERNAME)
         page.fill('input[name="password"]', PASSWORD)
-
         page.click('input[type="submit"], button[type="submit"]')
-
         page.wait_for_load_state("networkidle")
 
-        # Beispiel: HTML speichern
-        html = page.content()
+        all_data = []
 
-        with open("page.html", "w", encoding="utf-8") as f:
-            f.write(html)
+        # 3. Loop über Spieltage
+        for spieltag in range(1, 5):
+            url = f"{BASE_URL}{spieltag}"
+            print(f"Scrape Spieltag {spieltag}: {url}")
 
-        # Beispiel: Cookies speichern
-        cookies = context.cookies()
+            page.goto(url, wait_until="networkidle")
 
-        with open("cookies.json", "w") as f:
-            json.dump(cookies, f, indent=2)
+            # optional: kleine Pause gegen Rate-Limits
+            page.wait_for_timeout(800)
 
-        print("Fertig")
+            html = page.content()
+
+            all_data.append({
+                "spieltag": spieltag,
+                "html": html
+            })
+
+        # 4. speichern
+        with open("spieltage.json", "w", encoding="utf-8") as f:
+            json.dump(all_data, f, indent=2, ensure_ascii=False)
+
+        print("Fertig!")
 
         browser.close()
 

@@ -34,6 +34,4 @@ jobs:
         if: always()
         with:
           name: agp-data
-          path: |
-            **/page.html
-            **/cookies.json
+          path: .

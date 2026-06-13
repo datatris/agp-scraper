@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 USERNAME = os.environ["USERNAME"]
 PASSWORD = os.environ["PASSWORD"]
 
-URL = "https://allegegenpistorwm.wdr2.de/start.php"
+URL = "https://allegegenpistorwm.wdr2.de/tipprunde_punkte_detail.php?id=4833"
 
 def run():
     with sync_playwright() as p:

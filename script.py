@@ -15,7 +15,14 @@ def scrape_tipprunde(page, teamname):
 
     page.wait_for_timeout(1000)
 
-    page.locator('input[name="teamname"]').fill(teamname)
+    # Input sichtbar machen / warten
+    input = page.locator('input[name="teamname"]')
+    input.wait_for(state="attached", timeout=10000)
+
+    # falls hidden → trotzdem bedienen
+    input.scroll_into_view_if_needed()
+
+    input.fill(teamname, force=True)
 
     page.click('input[type="submit"], button[type="submit"]')
 

@@ -42,6 +42,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add spieltage.json gesamtstand.json
+          git add spieltage.json gesamtstand.json tipprunde.json
           git commit -m "daily update" || exit 0
           git push

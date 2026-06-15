@@ -75,34 +75,18 @@ def scrape_gesamtstand(page):
     gesamtstand = []
 
     for name in MITSPIELER:
-        # Seite laden um aktuelles CSRF-Token + agpID zu holen
+        # Seite laden
         page.goto(SEARCH_URL, wait_until="domcontentloaded")
-        page.wait_for_timeout(1000)
+        page.wait_for_timeout(1500)
 
-        html = page.content()
-        soup = BeautifulSoup(html, "lxml")
+        # Formular per JavaScript befüllen und absenden (umgeht Sichtbarkeitsprüfung)
+        page.evaluate(f"""
+            document.querySelector('input[name="name"]').value = "{name}";
+            document.querySelector('input[name="name"]').form.submit();
+        """)
+        page.wait_for_timeout(2000)
 
-        # CSRF-Token und agpID aus dem Formular auslesen
-        csrf_input = soup.find("input", {"name": "vdpaekhvudwzt"})
-        csrf_token = csrf_input.get("value", "") if csrf_input else ""
-
-        agp_input = soup.find("input", {"name": "agpID"})
-        agp_id = agp_input.get("value", "") if agp_input else ""
-
-        print(f"[{name}] csrf={'OK' if csrf_token else 'LEER'} agpID={'OK' if agp_id else 'LEER'}")
-
-        # POST über Playwright's Request-API (trägt Session-Cookies automatisch)
-        response = page.request.post(
-            SEARCH_URL,
-            form={
-                "vdpaekhvudwzt": csrf_token,
-                "agpID": agp_id,
-                "name": name,
-                "Suchen": "Benutzername suchen",
-            }
-        )
-        response_html = response.text()
-
+        response_html = page.content()
         soup = BeautifulSoup(response_html, "lxml")
 
         # Debug: Tabellenstruktur ausgeben

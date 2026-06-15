@@ -6,8 +6,8 @@ on:
     - cron: "0 7 * * *"    # 09:00 MESZ
     - cron: "0 8 * * *"    # 10:00 MESZ
     - cron: "0 14 * * *"   # 16:00 MESZ
-    - cron: "30 18 * * *"   # 20:30 MESZ
-    - cron: "30 19 * * *"   # 21:30 MESZ
+    - cron: "30 18 * * *"  # 20:30 MESZ
+    - cron: "30 19 * * *"  # 21:30 MESZ
     - cron: "30 21 * * *"  # 23:30 MESZ
   workflow_dispatch:
 
@@ -42,6 +42,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add spieltage.json
+          git add spieltage.json gesamtstand.json
           git commit -m "daily update" || exit 0
           git push

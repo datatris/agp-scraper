@@ -9,6 +9,8 @@ PASSWORD = os.environ["PASSWORD"]
 
 BASE_URL = "https://allegegenpistorwm.wdr2.de/tipprunde_punkte_detail.php?id=4833&spieltag="
 SEARCH_URL = "https://allegegenpistorwm.wdr2.de/spielstand_einzel.php"
+TIPPRUNDE_URL = "https://allegegenpistorwm.wdr2.de/spielstand_tipprunde.php"
+TIPPRUNDEN_NAME = "Die tippen die Römer"
 
 MITSPIELER = [
     "tigerschn",
@@ -130,6 +132,61 @@ def scrape_gesamtstand(page):
     return gesamtstand
 
 
+def scrape_tipprunde(page):
+    # Seite laden
+    page.goto(TIPPRUNDE_URL, wait_until="domcontentloaded")
+    page.wait_for_timeout(1500)
+
+    # Suchformular mit Tipprundenname befüllen und absenden
+    page.evaluate(f"""
+        document.querySelector('input[name="name"]').value = {json.dumps(TIPPRUNDEN_NAME)};
+        document.querySelector('input[name="name"]').form.submit();
+    """)
+    page.wait_for_timeout(2000)
+
+    response_html = page.content()
+    soup = BeautifulSoup(response_html, "lxml")
+
+    table = soup.select_one("table.table")
+    if not table:
+        print("Tipprunde: Kein <table class='table'> gefunden.")
+        all_tables = soup.find_all("table")
+        print(f"Tipprunde: Vorhandene Tabellen: {[t.get('class') for t in all_tables]}")
+        print(f"Tipprunde: Response-Anfang: {response_html[:800]}")
+        return []
+
+    rows = table.select("tbody tr")
+    print(f"Tipprunde: Tabelle gefunden, {len(rows)} Zeilen")
+    for i, row in enumerate(rows[:5]):
+        print(f"  Zeile {i}: {[c.get_text(strip=True) for c in row.select('td')]}")
+
+    tipprunde = []
+    platz = None
+
+    for row in rows:
+        cols = row.select("td")
+
+        if len(cols) >= 3:
+            platz_text = cols[0].get_text(strip=True).rstrip(".")
+            if platz_text.isdigit():
+                platz = int(platz_text)
+
+            tipprundenname = cols[1].get_text(strip=True).split("\n")[0].strip()
+            punkte_text = cols[2].get_text(strip=True)
+
+            if tipprundenname.lower() == TIPPRUNDEN_NAME.lower():
+                punkte = int(punkte_text) if punkte_text.isdigit() else None
+                tipprunde.append({
+                    "Tipprunde": tipprundenname,
+                    "Platz": platz,
+                    "Punkte": punkte
+                })
+                print(f"  {tipprundenname}: Platz {platz}, {punkte} Punkte")
+                break
+
+    return tipprunde
+
+
 def run():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -160,6 +217,14 @@ def run():
         with open("gesamtstand.json", "w", encoding="utf-8") as f:
             json.dump(gesamtstand, f, indent=2, ensure_ascii=False)
         print(f"gesamtstand.json gespeichert ({len(gesamtstand)} Spieler)")
+
+        # Tipprunde scrapen
+        print("Scrape Tipprunde...")
+        tipprunde = scrape_tipprunde(page)
+
+        with open("tipprunde.json", "w", encoding="utf-8") as f:
+            json.dump(tipprunde, f, indent=2, ensure_ascii=False)
+        print(f"tipprunde.json gespeichert ({len(tipprunde)} Eintraege)")
 
         browser.close()
 

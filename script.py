@@ -89,6 +89,8 @@ def scrape_gesamtstand(page):
         agp_input = soup.find("input", {"name": "agpID"})
         agp_id = agp_input.get("value", "") if agp_input else ""
 
+        print(f"[{name}] csrf={csrf_token[:10]}... agpID={agp_id[:10]}...")
+
         # POST direkt per fetch im Browser-Kontext abschicken (umgeht Sichtbarkeitsprobleme)
         response_html = page.evaluate("""
             async ({ url, csrf, agp, name }) => {
@@ -109,12 +111,21 @@ def scrape_gesamtstand(page):
 
         soup = BeautifulSoup(response_html, "lxml")
 
+        # Debug: Tabellenstruktur ausgeben
         table = soup.select_one("table.table")
         if not table:
-            print(f"Kein Ergebnis für {name}")
+            print(f"[{name}] Kein <table class='table'> gefunden.")
+            # Alle Tabellen ausgeben die vorhanden sind
+            all_tables = soup.find_all("table")
+            print(f"[{name}] Vorhandene Tabellen: {[t.get('class') for t in all_tables]}")
+            # Ersten 500 Zeichen der Antwort ausgeben
+            print(f"[{name}] Response-Anfang: {response_html[:500]}")
             continue
 
         rows = table.select("tbody tr")
+        print(f"[{name}] Tabelle gefunden, {len(rows)} Zeilen")
+        for i, row in enumerate(rows[:5]):
+            print(f"  Zeile {i}: {[c.get_text(strip=True) for c in row.select('td')]}")
         platz = None
 
         for row in rows:

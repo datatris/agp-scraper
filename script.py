@@ -73,24 +73,31 @@ def scrape_gesamtstand(page):
         soup = BeautifulSoup(html, "lxml")
 
         # CSRF-Token und agpID aus dem Formular auslesen
-        csrf_token = ""
-        agp_id = ""
-
         csrf_input = soup.find("input", {"name": "vdpaekhvudwzt"})
-        if csrf_input:
-            csrf_token = csrf_input.get("value", "")
+        csrf_token = csrf_input.get("value", "") if csrf_input else ""
 
         agp_input = soup.find("input", {"name": "agpID"})
-        if agp_input:
-            agp_id = agp_input.get("value", "")
+        agp_id = agp_input.get("value", "") if agp_input else ""
 
-        # Suchformular absenden
-        page.fill('input[name="name"]', name)
-        page.click('input[name="Suchen"]')
-        page.wait_for_timeout(1500)
+        # POST direkt per fetch im Browser-Kontext abschicken (umgeht Sichtbarkeitsprobleme)
+        response_html = page.evaluate("""
+            async ({ url, csrf, agp, name }) => {
+                const body = new URLSearchParams({
+                    vdpaekhvudwzt: csrf,
+                    agpID: agp,
+                    name: name,
+                    Suchen: "Benutzername suchen"
+                });
+                const res = await fetch(url, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: body.toString()
+                });
+                return await res.text();
+            }
+        """, {"url": SEARCH_URL, "csrf": csrf_token, "agp": agp_id, "name": name})
 
-        html = page.content()
-        soup = BeautifulSoup(html, "lxml")
+        soup = BeautifulSoup(response_html, "lxml")
 
         table = soup.select_one("table.table")
         if not table:

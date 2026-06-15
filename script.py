@@ -1,4 +1,5 @@
 import os
+import re
 import json
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
@@ -31,6 +32,14 @@ def scrape_spieltage(page):
         soup = BeautifulSoup(html, "lxml")
         tables = soup.select("table.table")
 
+        # Datum aus <p class="einleitung small"> extrahieren, z.B. "Vorrunde (15.06.26)"
+        datum = None
+        einleitung = soup.find("p", class_="einleitung small")
+        if einleitung:
+            match = re.search(r"\((\d{2}\.\d{2}\.\d{2,4})\)", einleitung.get_text())
+            if match:
+                datum = match.group(1)
+
         for table in tables:
             spieler = table.get("id", "").replace("_", "")
             rows = table.select("tbody tr")
@@ -51,6 +60,7 @@ def scrape_spieltage(page):
 
                 all_spieltage.append({
                     "spieltag": spieltag,
+                    "datum": datum,
                     "Name": spieler,
                     "Begegnung": begegnung,
                     "Tipp": tipp,

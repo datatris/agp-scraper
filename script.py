@@ -139,8 +139,8 @@ def scrape_tipprunde(page):
 
     # Suchformular mit Tipprundenname befüllen und absenden
     page.evaluate(f"""
-        document.querySelector('input[name="name"]').value = {json.dumps(TIPPRUNDEN_NAME)};
-        document.querySelector('input[name="name"]').form.submit();
+        document.querySelector('input[name="teamname"]').value = {json.dumps(TIPPRUNDEN_NAME)};
+        document.querySelector('input[name="teamname"]').form.submit();
     """)
     page.wait_for_timeout(2000)
 
@@ -150,8 +150,6 @@ def scrape_tipprunde(page):
     table = soup.select_one("table.table")
     if not table:
         print("Tipprunde: Kein <table class='table'> gefunden.")
-        all_tables = soup.find_all("table")
-        print(f"Tipprunde: Vorhandene Tabellen: {[t.get('class') for t in all_tables]}")
         print(f"Tipprunde: Response-Anfang: {response_html[:800]}")
         return []
 

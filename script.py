@@ -107,13 +107,14 @@ def scrape_gesamtstand(page):
         for row in rows:
             cols = row.select("td")
 
-            # Platz steht nur in der ersten Zeile eines Blocks, danach leer -> FillDown-Logik
             if len(cols) >= 3:
-                platz_text = cols[0].get_text(strip=True)
+                platz_text = cols[0].get_text(strip=True).rstrip(".")
                 if platz_text.isdigit():
                     platz = int(platz_text)
 
-                benutzername = cols[1].get_text(strip=True)
+                # Benutzername: erste Zeile nehmen, "(ich)"-Suffix entfernen
+                benutzername = cols[1].get_text(strip=True).split("\n")[0].strip()
+                benutzername = re.sub(r"\s*\(ich\)\s*$", "", benutzername).strip()
                 punkte_text = cols[2].get_text(strip=True)
 
                 if benutzername.lower() == name.lower():

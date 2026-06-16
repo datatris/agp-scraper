@@ -758,79 +758,25 @@
   {
     "spieltag": 6,
     "datum": "16.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Saudi-Arabien : Uruguay",
-    "Tipp": "1 : 2",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 6,
-    "datum": "16.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "IR Iran : Neuseeland",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 6,
-    "datum": "16.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Frankreich : Senegal",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 6,
-    "datum": "16.06.26",
     "Name": "hergis",
     "Begegnung": "Saudi-Arabien : Uruguay",
     "Tipp": "1 : 1",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "1 : 1",
+    "Punkte": "3"
   },
   {
     "spieltag": 6,
     "datum": "16.06.26",
     "Name": "hergis",
     "Begegnung": "IR Iran : Neuseeland",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Tipp": "0 : 1",
+    "Ergebnis": "2 : 2",
+    "Punkte": "0"
   },
   {
     "spieltag": 6,
     "datum": "16.06.26",
     "Name": "hergis",
-    "Begegnung": "Frankreich : Senegal",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 6,
-    "datum": "16.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "Saudi-Arabien : Uruguay",
-    "Tipp": "5 : 4",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 6,
-    "datum": "16.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "IR Iran : Neuseeland",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 6,
-    "datum": "16.06.26",
-    "Name": "Saihttam",
     "Begegnung": "Frankreich : Senegal",
     "Tipp": "# : #",
     "Ergebnis": "- : -",
@@ -842,17 +788,17 @@
     "Name": "JorinVor",
     "Begegnung": "Saudi-Arabien : Uruguay",
     "Tipp": "3 : 6",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "1 : 1",
+    "Punkte": "0"
   },
   {
     "spieltag": 6,
     "datum": "16.06.26",
     "Name": "JorinVor",
     "Begegnung": "IR Iran : Neuseeland",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Tipp": "1 : 1",
+    "Ergebnis": "2 : 2",
+    "Punkte": "2"
   },
   {
     "spieltag": 6,
@@ -866,9 +812,54 @@
   {
     "spieltag": 6,
     "datum": "16.06.26",
-    "Name": "Seitenstiche87",
+    "Name": "Saihttam",
     "Begegnung": "Saudi-Arabien : Uruguay",
-    "Tipp": "0 : 2",
+    "Tipp": "5 : 4",
+    "Ergebnis": "1 : 1",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 6,
+    "datum": "16.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "IR Iran : Neuseeland",
+    "Tipp": "0 : 5",
+    "Ergebnis": "2 : 2",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 6,
+    "datum": "16.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "Frankreich : Senegal",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 6,
+    "datum": "16.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Saudi-Arabien : Uruguay",
+    "Tipp": "1 : 2",
+    "Ergebnis": "1 : 1",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 6,
+    "datum": "16.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "IR Iran : Neuseeland",
+    "Tipp": "1 : 2",
+    "Ergebnis": "2 : 2",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 6,
+    "datum": "16.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Frankreich : Senegal",
+    "Tipp": "# : #",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -876,10 +867,19 @@
     "spieltag": 6,
     "datum": "16.06.26",
     "Name": "Seitenstiche87",
+    "Begegnung": "Saudi-Arabien : Uruguay",
+    "Tipp": "0 : 2",
+    "Ergebnis": "1 : 1",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 6,
+    "datum": "16.06.26",
+    "Name": "Seitenstiche87",
     "Begegnung": "IR Iran : Neuseeland",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Tipp": "1 : 0",
+    "Ergebnis": "2 : 2",
+    "Punkte": "0"
   },
   {
     "spieltag": 6,
@@ -896,8 +896,8 @@
     "Name": "DSCTris",
     "Begegnung": "Saudi-Arabien : Uruguay",
     "Tipp": "1 : 2",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "1 : 1",
+    "Punkte": "0"
   },
   {
     "spieltag": 6,
@@ -905,8 +905,8 @@
     "Name": "DSCTris",
     "Begegnung": "IR Iran : Neuseeland",
     "Tipp": "1 : 0",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "2 : 2",
+    "Punkte": "0"
   },
   {
     "spieltag": 6,
@@ -1406,33 +1406,6 @@
   {
     "spieltag": 9,
     "datum": "19.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Kanada : Katar",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 9,
-    "datum": "19.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Mexiko : Südkorea",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 9,
-    "datum": "19.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "USA : Australien",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 9,
-    "datum": "19.06.26",
     "Name": "hergis",
     "Begegnung": "Kanada : Katar",
     "Tipp": "- : -",
@@ -1481,6 +1454,33 @@
     "Name": "Saihttam",
     "Begegnung": "USA : Australien",
     "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 9,
+    "datum": "19.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Kanada : Katar",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 9,
+    "datum": "19.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Mexiko : Südkorea",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 9,
+    "datum": "19.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "USA : Australien",
+    "Tipp": "# : #",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -2270,42 +2270,6 @@
   {
     "spieltag": 13,
     "datum": "23.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "Norwegen : Senegal",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 13,
-    "datum": "23.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "Jordanien : Algerien",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 13,
-    "datum": "23.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "Portugal : Usbekistan",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 13,
-    "datum": "23.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "England : Ghana",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 13,
-    "datum": "23.06.26",
     "Name": "tigerschn",
     "Begegnung": "Norwegen : Senegal",
     "Tipp": "# : #",
@@ -2370,6 +2334,42 @@
     "spieltag": 13,
     "datum": "23.06.26",
     "Name": "hergis",
+    "Begegnung": "England : Ghana",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 13,
+    "datum": "23.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "Norwegen : Senegal",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 13,
+    "datum": "23.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "Jordanien : Algerien",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 13,
+    "datum": "23.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "Portugal : Usbekistan",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 13,
+    "datum": "23.06.26",
+    "Name": "Saihttam",
     "Begegnung": "England : Ghana",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -2486,6 +2486,42 @@
   {
     "spieltag": 14,
     "datum": "24.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "Panama : Kroatien",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 14,
+    "datum": "24.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "Kolumbien : DR Kongo",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 14,
+    "datum": "24.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "Schweiz : Kanada",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 14,
+    "datum": "24.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "Bosnien und Herzegowina : Katar",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 14,
+    "datum": "24.06.26",
     "Name": "tigerschn",
     "Begegnung": "Panama : Kroatien",
     "Tipp": "# : #",
@@ -2550,42 +2586,6 @@
     "spieltag": 14,
     "datum": "24.06.26",
     "Name": "hergis",
-    "Begegnung": "Bosnien und Herzegowina : Katar",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 14,
-    "datum": "24.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "Panama : Kroatien",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 14,
-    "datum": "24.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "Kolumbien : DR Kongo",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 14,
-    "datum": "24.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "Schweiz : Kanada",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 14,
-    "datum": "24.06.26",
-    "Name": "Saihttam",
     "Begegnung": "Bosnien und Herzegowina : Katar",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -3026,6 +3026,60 @@
   {
     "spieltag": 16,
     "datum": "26.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Tunesien : Niederlande",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 16,
+    "datum": "26.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Japan : Schweden",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 16,
+    "datum": "26.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Türkei : USA",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 16,
+    "datum": "26.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Paraguay : Australien",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 16,
+    "datum": "26.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Norwegen : Frankreich",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 16,
+    "datum": "26.06.26",
+    "Name": "tigerschn",
+    "Begegnung": "Senegal : Irak",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 16,
+    "datum": "26.06.26",
     "Name": "hergis",
     "Begegnung": "Tunesien : Niederlande",
     "Tipp": "- : -",
@@ -3128,60 +3182,6 @@
     "Name": "Saihttam",
     "Begegnung": "Senegal : Irak",
     "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 16,
-    "datum": "26.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Tunesien : Niederlande",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 16,
-    "datum": "26.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Japan : Schweden",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 16,
-    "datum": "26.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Türkei : USA",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 16,
-    "datum": "26.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Paraguay : Australien",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 16,
-    "datum": "26.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Norwegen : Frankreich",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 16,
-    "datum": "26.06.26",
-    "Name": "tigerschn",
-    "Begegnung": "Senegal : Irak",
-    "Tipp": "# : #",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -3890,6 +3890,15 @@
   {
     "spieltag": 19,
     "datum": "28.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "2. der Gruppe A : 2. der Gruppe B",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 19,
+    "datum": "28.06.26",
     "Name": "tigerschn",
     "Begegnung": "2. der Gruppe A : 2. der Gruppe B",
     "Tipp": "- : -",
@@ -3908,15 +3917,6 @@
   {
     "spieltag": 19,
     "datum": "28.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "2. der Gruppe A : 2. der Gruppe B",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 19,
-    "datum": "28.06.26",
     "Name": "JorinVor",
     "Begegnung": "2. der Gruppe A : 2. der Gruppe B",
     "Tipp": "- : -",
@@ -4052,6 +4052,33 @@
   {
     "spieltag": 21,
     "datum": "30.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "1. der Gruppe F : 2. der Gruppe C",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 21,
+    "datum": "30.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "2. der Gruppe E : 2. der Gruppe I",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 21,
+    "datum": "30.06.26",
+    "Name": "Saihttam",
+    "Begegnung": "1. der Gruppe I : 3. der Gruppen C/D/F/G oder H",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 21,
+    "datum": "30.06.26",
     "Name": "tigerschn",
     "Begegnung": "1. der Gruppe F : 2. der Gruppe C",
     "Tipp": "- : -",
@@ -4098,33 +4125,6 @@
     "spieltag": 21,
     "datum": "30.06.26",
     "Name": "hergis",
-    "Begegnung": "1. der Gruppe I : 3. der Gruppen C/D/F/G oder H",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 21,
-    "datum": "30.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "1. der Gruppe F : 2. der Gruppe C",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 21,
-    "datum": "30.06.26",
-    "Name": "Saihttam",
-    "Begegnung": "2. der Gruppe E : 2. der Gruppe I",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 21,
-    "datum": "30.06.26",
-    "Name": "Saihttam",
     "Begegnung": "1. der Gruppe I : 3. der Gruppen C/D/F/G oder H",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -4376,6 +4376,24 @@
   {
     "spieltag": 23,
     "datum": "02.07.26",
+    "Name": "hergis",
+    "Begegnung": "1. der Gruppe D : 3. der Gruppen B/E/F/I oder J",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 23,
+    "datum": "02.07.26",
+    "Name": "hergis",
+    "Begegnung": "1. der Gruppe H : 2. der Gruppe J",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 23,
+    "datum": "02.07.26",
     "Name": "Saihttam",
     "Begegnung": "1. der Gruppe D : 3. der Gruppen B/E/F/I oder J",
     "Tipp": "- : -",
@@ -4404,24 +4422,6 @@
     "spieltag": 23,
     "datum": "02.07.26",
     "Name": "tigerschn",
-    "Begegnung": "1. der Gruppe H : 2. der Gruppe J",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 23,
-    "datum": "02.07.26",
-    "Name": "hergis",
-    "Begegnung": "1. der Gruppe D : 3. der Gruppen B/E/F/I oder J",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 23,
-    "datum": "02.07.26",
-    "Name": "hergis",
     "Begegnung": "1. der Gruppe H : 2. der Gruppe J",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -4477,33 +4477,6 @@
     "datum": "02.07.26",
     "Name": "DSCTris",
     "Begegnung": "1. der Gruppe H : 2. der Gruppe J",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 24,
-    "datum": "03.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "2. der Gruppe K : 2. der Gruppe L",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 24,
-    "datum": "03.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "1. der Gruppe B : 3. der Gruppen E/F/G/I oder J",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 24,
-    "datum": "03.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "2. der Gruppe D : 2. der Gruppe G",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
     "Punkte": null
@@ -4557,6 +4530,33 @@
     "spieltag": 24,
     "datum": "03.07.26",
     "Name": "hergis",
+    "Begegnung": "2. der Gruppe D : 2. der Gruppe G",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 24,
+    "datum": "03.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "2. der Gruppe K : 2. der Gruppe L",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 24,
+    "datum": "03.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "1. der Gruppe B : 3. der Gruppen E/F/G/I oder J",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 24,
+    "datum": "03.07.26",
+    "Name": "Saihttam",
     "Begegnung": "2. der Gruppe D : 2. der Gruppe G",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -4862,6 +4862,15 @@
   {
     "spieltag": 27,
     "datum": "05.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "Sieger SF Spiel 2 : Sieger SF Spiel 5",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 27,
+    "datum": "05.07.26",
     "Name": "tigerschn",
     "Begegnung": "Sieger SF Spiel 2 : Sieger SF Spiel 5",
     "Tipp": "- : -",
@@ -4880,15 +4889,6 @@
   {
     "spieltag": 27,
     "datum": "05.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "Sieger SF Spiel 2 : Sieger SF Spiel 5",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 27,
-    "datum": "05.07.26",
     "Name": "JorinVor",
     "Begegnung": "Sieger SF Spiel 2 : Sieger SF Spiel 5",
     "Tipp": "- : -",
@@ -5024,6 +5024,33 @@
   {
     "spieltag": 29,
     "datum": "07.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "Sieger SF Spiel 10 : Sieger SF Spiel 9",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 29,
+    "datum": "07.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "Sieger SF Spiel 15 : Sieger SF Spiel 14",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 29,
+    "datum": "07.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "Sieger SF Spiel 13 : Sieger SF Spiel 16",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 29,
+    "datum": "07.07.26",
     "Name": "tigerschn",
     "Begegnung": "Sieger SF Spiel 10 : Sieger SF Spiel 9",
     "Tipp": "- : -",
@@ -5070,33 +5097,6 @@
     "spieltag": 29,
     "datum": "07.07.26",
     "Name": "hergis",
-    "Begegnung": "Sieger SF Spiel 13 : Sieger SF Spiel 16",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 29,
-    "datum": "07.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "Sieger SF Spiel 10 : Sieger SF Spiel 9",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 29,
-    "datum": "07.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "Sieger SF Spiel 15 : Sieger SF Spiel 14",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 29,
-    "datum": "07.07.26",
-    "Name": "Saihttam",
     "Begegnung": "Sieger SF Spiel 13 : Sieger SF Spiel 16",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -5186,6 +5186,15 @@
   {
     "spieltag": 30,
     "datum": "09.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "Sieger AF Spiel 2 : Sieger AF Spiel 1",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 30,
+    "datum": "09.07.26",
     "Name": "tigerschn",
     "Begegnung": "Sieger AF Spiel 2 : Sieger AF Spiel 1",
     "Tipp": "- : -",
@@ -5196,15 +5205,6 @@
     "spieltag": 30,
     "datum": "09.07.26",
     "Name": "hergis",
-    "Begegnung": "Sieger AF Spiel 2 : Sieger AF Spiel 1",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 30,
-    "datum": "09.07.26",
-    "Name": "Saihttam",
     "Begegnung": "Sieger AF Spiel 2 : Sieger AF Spiel 1",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -5240,15 +5240,6 @@
   {
     "spieltag": 31,
     "datum": "10.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "Sieger AF Spiel 5 : Sieger AF Spiel 6",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 31,
-    "datum": "10.07.26",
     "Name": "tigerschn",
     "Begegnung": "Sieger AF Spiel 5 : Sieger AF Spiel 6",
     "Tipp": "- : -",
@@ -5259,6 +5250,15 @@
     "spieltag": 31,
     "datum": "10.07.26",
     "Name": "hergis",
+    "Begegnung": "Sieger AF Spiel 5 : Sieger AF Spiel 6",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 31,
+    "datum": "10.07.26",
+    "Name": "Saihttam",
     "Begegnung": "Sieger AF Spiel 5 : Sieger AF Spiel 6",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -5341,6 +5341,15 @@
     "datum": "11.07.26",
     "Name": "DSCTris",
     "Begegnung": "Sieger AF Spiel 3 : Sieger AF Spiel 4",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 33,
+    "datum": "12.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "Sieger AF Spiel 7 : Sieger AF Spiel 8",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
     "Punkte": null
@@ -5358,15 +5367,6 @@
     "spieltag": 33,
     "datum": "12.07.26",
     "Name": "hergis",
-    "Begegnung": "Sieger AF Spiel 7 : Sieger AF Spiel 8",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 33,
-    "datum": "12.07.26",
-    "Name": "Saihttam",
     "Begegnung": "Sieger AF Spiel 7 : Sieger AF Spiel 8",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -5510,15 +5510,6 @@
   {
     "spieltag": 36,
     "datum": "18.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "Verlierer HF 1 : Verlierer HF 2",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 36,
-    "datum": "18.07.26",
     "Name": "tigerschn",
     "Begegnung": "Verlierer HF 1 : Verlierer HF 2",
     "Tipp": "- : -",
@@ -5529,6 +5520,15 @@
     "spieltag": 36,
     "datum": "18.07.26",
     "Name": "hergis",
+    "Begegnung": "Verlierer HF 1 : Verlierer HF 2",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 36,
+    "datum": "18.07.26",
+    "Name": "Saihttam",
     "Begegnung": "Verlierer HF 1 : Verlierer HF 2",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
@@ -5557,15 +5557,6 @@
     "datum": "18.07.26",
     "Name": "DSCTris",
     "Begegnung": "Verlierer HF 1 : Verlierer HF 2",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 37,
-    "datum": "19.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "Sieger HF1 : Sieger HF2",
     "Tipp": "- : -",
     "Ergebnis": "- : -",
     "Punkte": null
@@ -5583,6 +5574,15 @@
     "spieltag": 37,
     "datum": "19.07.26",
     "Name": "hergis",
+    "Begegnung": "Sieger HF1 : Sieger HF2",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 37,
+    "datum": "19.07.26",
+    "Name": "Saihttam",
     "Begegnung": "Sieger HF1 : Sieger HF2",
     "Tipp": "- : -",
     "Ergebnis": "- : -",

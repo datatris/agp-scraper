@@ -2,7 +2,7 @@ name: AGP Scraper Daily
 
 on:
   schedule:
-    - cron: "0 4 * * *"    # 06:00 MESZ
+    - cron: "0 3 * * *"    # 05:00 MESZ
     - cron: "0 7 * * *"    # 09:00 MESZ
     - cron: "0 8 * * *"    # 10:00 MESZ
     - cron: "0 14 * * *"   # 16:00 MESZ

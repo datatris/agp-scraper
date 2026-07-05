@@ -4766,8 +4766,8 @@
     "Name": "JorinVor",
     "Begegnung": "Paraguay : Frankreich",
     "Tipp": "0 : 4",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "0 : 1",
+    "Punkte": "1"
   },
   {
     "spieltag": 26,
@@ -4784,8 +4784,8 @@
     "Name": "Saihttam",
     "Begegnung": "Paraguay : Frankreich",
     "Tipp": "2 : 5",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "0 : 1",
+    "Punkte": "1"
   },
   {
     "spieltag": 26,
@@ -4802,8 +4802,8 @@
     "Name": "tigerschn",
     "Begegnung": "Paraguay : Frankreich",
     "Tipp": "1 : 3",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "0 : 1",
+    "Punkte": "1"
   },
   {
     "spieltag": 26,
@@ -4820,8 +4820,8 @@
     "Name": "DSCTris",
     "Begegnung": "Paraguay : Frankreich",
     "Tipp": "0 : 3",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "0 : 1",
+    "Punkte": "1"
   },
   {
     "spieltag": 26,
@@ -4838,8 +4838,8 @@
     "Name": "Seitenstiche87",
     "Begegnung": "Paraguay : Frankreich",
     "Tipp": "1 : 4",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "0 : 1",
+    "Punkte": "1"
   },
   {
     "spieltag": 26,
@@ -4856,6 +4856,15 @@
     "Name": "hergis",
     "Begegnung": "Paraguay : Frankreich",
     "Tipp": "0 : 4",
+    "Ergebnis": "0 : 1",
+    "Punkte": "1"
+  },
+  {
+    "spieltag": 27,
+    "datum": "05.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Brasilien : Norwegen",
+    "Tipp": "# : #",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -4872,15 +4881,6 @@
     "spieltag": 27,
     "datum": "05.07.26",
     "Name": "Saihttam",
-    "Begegnung": "Brasilien : Norwegen",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 27,
-    "datum": "05.07.26",
-    "Name": "tigerschn",
     "Begegnung": "Brasilien : Norwegen",
     "Tipp": "# : #",
     "Ergebnis": "- : -",
@@ -5024,33 +5024,6 @@
   {
     "spieltag": 29,
     "datum": "07.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "USA : Belgien",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 29,
-    "datum": "07.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "Argentinien : Ägypten",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 29,
-    "datum": "07.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "Schweiz : Kolumbien",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 29,
-    "datum": "07.07.26",
     "Name": "hergis",
     "Begegnung": "USA : Belgien",
     "Tipp": "- : -",
@@ -5099,6 +5072,33 @@
     "Name": "Saihttam",
     "Begegnung": "Schweiz : Kolumbien",
     "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 29,
+    "datum": "07.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "USA : Belgien",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 29,
+    "datum": "07.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Argentinien : Ägypten",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 29,
+    "datum": "07.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Schweiz : Kolumbien",
+    "Tipp": "- : -",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -5348,6 +5348,15 @@
   {
     "spieltag": 33,
     "datum": "12.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Sieger AF Spiel 7 : Sieger AF Spiel 8",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 33,
+    "datum": "12.07.26",
     "Name": "hergis",
     "Begegnung": "Sieger AF Spiel 7 : Sieger AF Spiel 8",
     "Tipp": "- : -",
@@ -5358,15 +5367,6 @@
     "spieltag": 33,
     "datum": "12.07.26",
     "Name": "Saihttam",
-    "Begegnung": "Sieger AF Spiel 7 : Sieger AF Spiel 8",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 33,
-    "datum": "12.07.26",
-    "Name": "tigerschn",
     "Begegnung": "Sieger AF Spiel 7 : Sieger AF Spiel 8",
     "Tipp": "- : -",
     "Ergebnis": "- : -",

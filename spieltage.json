@@ -5294,15 +5294,6 @@
   {
     "spieltag": 32,
     "datum": "11.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "Norwegen : England",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 32,
-    "datum": "11.07.26",
     "Name": "hergis",
     "Begegnung": "Norwegen : England",
     "Tipp": "- : -",
@@ -5313,6 +5304,15 @@
     "spieltag": 32,
     "datum": "11.07.26",
     "Name": "Saihttam",
+    "Begegnung": "Norwegen : England",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 32,
+    "datum": "11.07.26",
+    "Name": "tigerschn",
     "Begegnung": "Norwegen : England",
     "Tipp": "# : #",
     "Ergebnis": "- : -",
@@ -5348,6 +5348,15 @@
   {
     "spieltag": 33,
     "datum": "12.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Argentinien : Schweiz",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 33,
+    "datum": "12.07.26",
     "Name": "hergis",
     "Begegnung": "Argentinien : Schweiz",
     "Tipp": "- : -",
@@ -5358,15 +5367,6 @@
     "spieltag": 33,
     "datum": "12.07.26",
     "Name": "Saihttam",
-    "Begegnung": "Argentinien : Schweiz",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 33,
-    "datum": "12.07.26",
-    "Name": "tigerschn",
     "Begegnung": "Argentinien : Schweiz",
     "Tipp": "# : #",
     "Ergebnis": "- : -",
@@ -5402,15 +5402,6 @@
   {
     "spieltag": 34,
     "datum": "14.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "Frankreich : Sieger VF2",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 34,
-    "datum": "14.07.26",
     "Name": "hergis",
     "Begegnung": "Frankreich : Sieger VF2",
     "Tipp": "- : -",
@@ -5421,6 +5412,15 @@
     "spieltag": 34,
     "datum": "14.07.26",
     "Name": "Saihttam",
+    "Begegnung": "Frankreich : Sieger VF2",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 34,
+    "datum": "14.07.26",
+    "Name": "tigerschn",
     "Begegnung": "Frankreich : Sieger VF2",
     "Tipp": "- : -",
     "Ergebnis": "- : -",

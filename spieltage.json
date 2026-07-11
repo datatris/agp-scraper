@@ -5294,6 +5294,15 @@
   {
     "spieltag": 32,
     "datum": "11.07.26",
+    "Name": "hergis",
+    "Begegnung": "Norwegen : England",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 32,
+    "datum": "11.07.26",
     "Name": "Saihttam",
     "Begegnung": "Norwegen : England",
     "Tipp": "# : #",
@@ -5304,15 +5313,6 @@
     "spieltag": 32,
     "datum": "11.07.26",
     "Name": "tigerschn",
-    "Begegnung": "Norwegen : England",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 32,
-    "datum": "11.07.26",
-    "Name": "hergis",
     "Begegnung": "Norwegen : England",
     "Tipp": "# : #",
     "Ergebnis": "- : -",
@@ -5348,6 +5348,15 @@
   {
     "spieltag": 33,
     "datum": "12.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Argentinien : Schweiz",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 33,
+    "datum": "12.07.26",
     "Name": "hergis",
     "Begegnung": "Argentinien : Schweiz",
     "Tipp": "# : #",
@@ -5358,15 +5367,6 @@
     "spieltag": 33,
     "datum": "12.07.26",
     "Name": "Saihttam",
-    "Begegnung": "Argentinien : Schweiz",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 33,
-    "datum": "12.07.26",
-    "Name": "tigerschn",
     "Begegnung": "Argentinien : Schweiz",
     "Tipp": "# : #",
     "Ergebnis": "- : -",
@@ -5395,16 +5395,7 @@
     "datum": "12.07.26",
     "Name": "DSCTris",
     "Begegnung": "Argentinien : Schweiz",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 34,
-    "datum": "14.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "Frankreich : Spanien",
-    "Tipp": "# : #",
+    "Tipp": "2 : 1",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -5423,6 +5414,15 @@
     "Name": "Saihttam",
     "Begegnung": "Frankreich : Spanien",
     "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 34,
+    "datum": "14.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Frankreich : Spanien",
+    "Tipp": "# : #",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -5456,6 +5456,15 @@
   {
     "spieltag": 35,
     "datum": "15.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Sieger VF3 : Sieger VF4",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 35,
+    "datum": "15.07.26",
     "Name": "hergis",
     "Begegnung": "Sieger VF3 : Sieger VF4",
     "Tipp": "- : -",
@@ -5466,15 +5475,6 @@
     "spieltag": 35,
     "datum": "15.07.26",
     "Name": "Saihttam",
-    "Begegnung": "Sieger VF3 : Sieger VF4",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 35,
-    "datum": "15.07.26",
-    "Name": "tigerschn",
     "Begegnung": "Sieger VF3 : Sieger VF4",
     "Tipp": "- : -",
     "Ergebnis": "- : -",

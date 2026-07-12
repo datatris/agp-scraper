@@ -5402,6 +5402,15 @@
   {
     "spieltag": 34,
     "datum": "14.07.26",
+    "Name": "hergis",
+    "Begegnung": "Frankreich : Spanien",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 34,
+    "datum": "14.07.26",
     "Name": "Saihttam",
     "Begegnung": "Frankreich : Spanien",
     "Tipp": "- : -",
@@ -5420,15 +5429,6 @@
   {
     "spieltag": 34,
     "datum": "14.07.26",
-    "Name": "hergis",
-    "Begegnung": "Frankreich : Spanien",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 34,
-    "datum": "14.07.26",
     "Name": "JorinVor",
     "Begegnung": "Frankreich : Spanien",
     "Tipp": "- : -",
@@ -5440,7 +5440,7 @@
     "datum": "14.07.26",
     "Name": "Seitenstiche87",
     "Begegnung": "Frankreich : Spanien",
-    "Tipp": "- : -",
+    "Tipp": "# : #",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -5449,7 +5449,7 @@
     "datum": "14.07.26",
     "Name": "DSCTris",
     "Begegnung": "Frankreich : Spanien",
-    "Tipp": "- : -",
+    "Tipp": "2 : 1",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -5494,7 +5494,7 @@
     "datum": "15.07.26",
     "Name": "Seitenstiche87",
     "Begegnung": "England : Argentinien",
-    "Tipp": "- : -",
+    "Tipp": "# : #",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -5503,7 +5503,7 @@
     "datum": "15.07.26",
     "Name": "DSCTris",
     "Begegnung": "England : Argentinien",
-    "Tipp": "- : -",
+    "Tipp": "1 : 1",
     "Ergebnis": "- : -",
     "Punkte": null
   },

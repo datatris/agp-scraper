@@ -5404,7 +5404,7 @@
     "datum": "14.07.26",
     "Name": "hergis",
     "Begegnung": "Frankreich : Spanien",
-    "Tipp": "- : -",
+    "Tipp": "# : #",
     "Ergebnis": "- : -",
     "Punkte": null
   },
@@ -5456,15 +5456,6 @@
   {
     "spieltag": 35,
     "datum": "15.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "England : Argentinien",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 35,
-    "datum": "15.07.26",
     "Name": "tigerschn",
     "Begegnung": "England : Argentinien",
     "Tipp": "# : #",
@@ -5477,6 +5468,15 @@
     "Name": "hergis",
     "Begegnung": "England : Argentinien",
     "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 35,
+    "datum": "15.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "England : Argentinien",
+    "Tipp": "# : #",
     "Ergebnis": "- : -",
     "Punkte": null
   },

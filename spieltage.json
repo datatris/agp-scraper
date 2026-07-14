@@ -5402,15 +5402,6 @@
   {
     "spieltag": 34,
     "datum": "14.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "Frankreich : Spanien",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 34,
-    "datum": "14.07.26",
     "Name": "hergis",
     "Begegnung": "Frankreich : Spanien",
     "Tipp": "# : #",
@@ -5421,6 +5412,15 @@
     "spieltag": 34,
     "datum": "14.07.26",
     "Name": "Saihttam",
+    "Begegnung": "Frankreich : Spanien",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 34,
+    "datum": "14.07.26",
+    "Name": "tigerschn",
     "Begegnung": "Frankreich : Spanien",
     "Tipp": "# : #",
     "Ergebnis": "- : -",
@@ -5456,15 +5456,6 @@
   {
     "spieltag": 35,
     "datum": "15.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "England : Argentinien",
-    "Tipp": "# : #",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 35,
-    "datum": "15.07.26",
     "Name": "hergis",
     "Begegnung": "England : Argentinien",
     "Tipp": "- : -",
@@ -5475,6 +5466,15 @@
     "spieltag": 35,
     "datum": "15.07.26",
     "Name": "Saihttam",
+    "Begegnung": "England : Argentinien",
+    "Tipp": "# : #",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 35,
+    "datum": "15.07.26",
+    "Name": "tigerschn",
     "Begegnung": "England : Argentinien",
     "Tipp": "# : #",
     "Ergebnis": "- : -",
@@ -5564,15 +5564,6 @@
   {
     "spieltag": 37,
     "datum": "19.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "Sieger HF1 : Sieger HF2",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 37,
-    "datum": "19.07.26",
     "Name": "hergis",
     "Begegnung": "Sieger HF1 : Sieger HF2",
     "Tipp": "- : -",
@@ -5583,6 +5574,15 @@
     "spieltag": 37,
     "datum": "19.07.26",
     "Name": "Saihttam",
+    "Begegnung": "Sieger HF1 : Sieger HF2",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 37,
+    "datum": "19.07.26",
+    "Name": "tigerschn",
     "Begegnung": "Sieger HF1 : Sieger HF2",
     "Tipp": "- : -",
     "Ergebnis": "- : -",

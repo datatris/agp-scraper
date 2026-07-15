@@ -5564,15 +5564,6 @@
   {
     "spieltag": 37,
     "datum": "19.07.26",
-    "Name": "hergis",
-    "Begegnung": "Spanien : Sieger HF2",
-    "Tipp": "- : -",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 37,
-    "datum": "19.07.26",
     "Name": "Saihttam",
     "Begegnung": "Spanien : Sieger HF2",
     "Tipp": "- : -",
@@ -5583,6 +5574,15 @@
     "spieltag": 37,
     "datum": "19.07.26",
     "Name": "tigerschn",
+    "Begegnung": "Spanien : Sieger HF2",
+    "Tipp": "- : -",
+    "Ergebnis": "- : -",
+    "Punkte": null
+  },
+  {
+    "spieltag": 37,
+    "datum": "19.07.26",
+    "Name": "hergis",
     "Begegnung": "Spanien : Sieger HF2",
     "Tipp": "- : -",
     "Ergebnis": "- : -",

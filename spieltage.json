@@ -5564,47 +5564,11 @@
   {
     "spieltag": 37,
     "datum": "19.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "Spanien : Argentinien",
-    "Tipp": "2 : 1",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 37,
-    "datum": "19.07.26",
-    "Name": "hergis",
-    "Begegnung": "Spanien : Argentinien",
-    "Tipp": "2 : 3",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 37,
-    "datum": "19.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "Spanien : Argentinien",
-    "Tipp": "1 : 0",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 37,
-    "datum": "19.07.26",
     "Name": "JorinVor",
     "Begegnung": "Spanien : Argentinien",
     "Tipp": "3 : 3",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 37,
-    "datum": "19.07.26",
-    "Name": "Seitenstiche87",
-    "Begegnung": "Spanien : Argentinien",
-    "Tipp": "3 : 2",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "0 : 0",
+    "Punkte": "2"
   },
   {
     "spieltag": 37,
@@ -5612,7 +5576,43 @@
     "Name": "DSCTris",
     "Begegnung": "Spanien : Argentinien",
     "Tipp": "1 : 1",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "0 : 0",
+    "Punkte": "2"
+  },
+  {
+    "spieltag": 37,
+    "datum": "19.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "Spanien : Argentinien",
+    "Tipp": "1 : 0",
+    "Ergebnis": "0 : 0",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 37,
+    "datum": "19.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Spanien : Argentinien",
+    "Tipp": "2 : 1",
+    "Ergebnis": "0 : 0",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 37,
+    "datum": "19.07.26",
+    "Name": "Seitenstiche87",
+    "Begegnung": "Spanien : Argentinien",
+    "Tipp": "3 : 2",
+    "Ergebnis": "0 : 0",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 37,
+    "datum": "19.07.26",
+    "Name": "hergis",
+    "Begegnung": "Spanien : Argentinien",
+    "Tipp": "2 : 3",
+    "Ergebnis": "0 : 0",
+    "Punkte": "0"
   }
 ]

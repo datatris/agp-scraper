@@ -5510,29 +5510,11 @@
   {
     "spieltag": 36,
     "datum": "18.07.26",
-    "Name": "tigerschn",
-    "Begegnung": "Frankreich : England",
-    "Tipp": "2 : 1",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 36,
-    "datum": "18.07.26",
     "Name": "hergis",
     "Begegnung": "Frankreich : England",
     "Tipp": "1 : 2",
-    "Ergebnis": "- : -",
-    "Punkte": null
-  },
-  {
-    "spieltag": 36,
-    "datum": "18.07.26",
-    "Name": "Saihttam",
-    "Begegnung": "Frankreich : England",
-    "Tipp": "1 : 1",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "4 : 6",
+    "Punkte": "1"
   },
   {
     "spieltag": 36,
@@ -5540,8 +5522,26 @@
     "Name": "JorinVor",
     "Begegnung": "Frankreich : England",
     "Tipp": "2 : 1",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "4 : 6",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 36,
+    "datum": "18.07.26",
+    "Name": "Saihttam",
+    "Begegnung": "Frankreich : England",
+    "Tipp": "1 : 1",
+    "Ergebnis": "4 : 6",
+    "Punkte": "0"
+  },
+  {
+    "spieltag": 36,
+    "datum": "18.07.26",
+    "Name": "tigerschn",
+    "Begegnung": "Frankreich : England",
+    "Tipp": "2 : 1",
+    "Ergebnis": "4 : 6",
+    "Punkte": "0"
   },
   {
     "spieltag": 36,
@@ -5549,8 +5549,8 @@
     "Name": "Seitenstiche87",
     "Begegnung": "Frankreich : England",
     "Tipp": "3 : 1",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "4 : 6",
+    "Punkte": "0"
   },
   {
     "spieltag": 36,
@@ -5558,8 +5558,8 @@
     "Name": "DSCTris",
     "Begegnung": "Frankreich : England",
     "Tipp": "2 : 1",
-    "Ergebnis": "- : -",
-    "Punkte": null
+    "Ergebnis": "4 : 6",
+    "Punkte": "0"
   },
   {
     "spieltag": 37,
